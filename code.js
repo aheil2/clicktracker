@@ -1,0 +1,20 @@
+//With a partner, you will be creating a "Click Tracker" web page.
+//
+// First, create an HTML page with two buttons.
+//
+// The first button, when clicked, adds one to a variable that keeps track of the number of clicks.
+//
+// The second button, when clicked, uses an alert() to let the user know how many times the first button was clicked.
+//
+// The message should say "You clicked x times" where x is the number of times the first button was clicked.
+//
+// All of the JavaScript code should be placed in an external file.
+var clickCount = 0;
+function clickTracker()
+{
+    clickCount++;
+}
+function displayClicks()
+{
+    alert(`You clicked ${clickCount} times.`)
+}
